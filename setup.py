@@ -23,14 +23,14 @@ with open(pjoin(here, 'version.py')) as f:
     exec(f.read(), {}, version_ns)
 
 setup_args = dict(
-    name                = 'singularityspawner',
-    packages            = ['singularityspawner'],
+    name                = 'jupyterhub-singularity',
+    packages            = ['jupyterhub-singularity'],
     version             = version_ns['__version__'],
     description         = """Singularity Spawner: Spawn Jupyter Notebooks that run inside Singularity containers.""",
     long_description    = "",
-    author              = "Zebula Sampedro",
-    author_email        = "sampedro@colorado.edu",
-    url                 = "https://github.com/ResearchComputing/jupyterhub-singularity-spawner",
+    author              = "yftian",
+    author_email        = "642209942@qq.com",
+    url                 = "https://github.com/yftian/jupyterhub-singularity",
     license             = "BSD",
     platforms           = "Linux",
     keywords            = ['Interactive', 'Interpreter', 'Shell', 'Web', 'Singularity', 'Containers'],
